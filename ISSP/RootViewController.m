@@ -20,7 +20,7 @@
     self.clearsSelectionOnViewWillAppear = NO;
     self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
     
-    NSLog(@"This is a test");
+    NSLog(@"This is a test for a second time");
     
 }
 
