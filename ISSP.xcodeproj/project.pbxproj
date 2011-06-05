@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6363DA7B139C336500746B50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6363DA7A139C336500746B50 /* UIKit.framework */; };
+		6363DA7D139C336500746B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6363DA7C139C336500746B50 /* Foundation.framework */; };
+		6363DA7F139C336500746B50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6363DA7E139C336500746B50 /* CoreGraphics.framework */; };
+		6363DA85139C336500746B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6363DA83139C336500746B50 /* InfoPlist.strings */; };
+		6363DA88139C336500746B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363DA87139C336500746B50 /* main.m */; };
+		6363DA8B139C336500746B50 /* ISSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363DA8A139C336500746B50 /* ISSPAppDelegate.m */; };
+		6363DA8E139C336500746B50 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6363DA8C139C336500746B50 /* MainWindow.xib */; };
+		6363DA91139C336500746B50 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363DA90139C336500746B50 /* DetailViewController.m */; };
+		6363DA94139C336500746B50 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6363DA92139C336500746B50 /* DetailView.xib */; };
+		6363DA97139C336500746B50 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363DA96139C336500746B50 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6363DA76139C336500746B50 /* ISSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6363DA7A139C336500746B50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6363DA7C139C336500746B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6363DA7E139C336500746B50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6363DA82139C336500746B50 /* ISSP-Info.plist */ = {isa = PBXFileReference; path = "ISSP-Info.plist"; sourceTree = "<group>"; };
+		6363DA84139C336500746B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6363DA86139C336500746B50 /* ISSP-Prefix.pch */ = {isa = PBXFileReference; path = "ISSP-Prefix.pch"; sourceTree = "<group>"; };
+		6363DA87139C336500746B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6363DA89139C336500746B50 /* ISSPAppDelegate.h */ = {isa = PBXFileReference; path = ISSPAppDelegate.h; sourceTree = "<group>"; };
+		6363DA8A139C336500746B50 /* ISSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSPAppDelegate.m; sourceTree = "<group>"; };
+		6363DA8D139C336500746B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6363DA8F139C336500746B50 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		6363DA90139C336500746B50 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6363DA93139C336500746B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		6363DA95139C336500746B50 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		6363DA96139C336500746B50 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6363DA73139C336500746B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6363DA7B139C336500746B50 /* UIKit.framework in Frameworks */,
+				6363DA7D139C336500746B50 /* Foundation.framework in Frameworks */,
+				6363DA7F139C336500746B50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6363DA6B139C336400746B50 = {
+			isa = PBXGroup;
+			children = (
+				6363DA80139C336500746B50 /* ISSP */,
+				6363DA79139C336500746B50 /* Frameworks */,
+				6363DA77139C336500746B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6363DA77139C336500746B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6363DA76139C336500746B50 /* ISSP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6363DA79139C336500746B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6363DA7A139C336500746B50 /* UIKit.framework */,
+				6363DA7C139C336500746B50 /* Foundation.framework */,
+				6363DA7E139C336500746B50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6363DA80139C336500746B50 /* ISSP */ = {
+			isa = PBXGroup;
+			children = (
+				6363DA89139C336500746B50 /* ISSPAppDelegate.h */,
+				6363DA8A139C336500746B50 /* ISSPAppDelegate.m */,
+				6363DA8C139C336500746B50 /* MainWindow.xib */,
+				6363DA8F139C336500746B50 /* DetailViewController.h */,
+				6363DA90139C336500746B50 /* DetailViewController.m */,
+				6363DA92139C336500746B50 /* DetailView.xib */,
+				6363DA95139C336500746B50 /* RootViewController.h */,
+				6363DA96139C336500746B50 /* RootViewController.m */,
+				6363DA81139C336500746B50 /* Supporting Files */,
+			);
+			path = ISSP;
+			sourceTree = "<group>";
+		};
+		6363DA81139C336500746B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6363DA82139C336500746B50 /* ISSP-Info.plist */,
+				6363DA83139C336500746B50 /* InfoPlist.strings */,
+				6363DA86139C336500746B50 /* ISSP-Prefix.pch */,
+				6363DA87139C336500746B50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6363DA75139C336500746B50 /* ISSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6363DA9A139C336500746B50 /* Build configuration list for PBXNativeTarget "ISSP" */;
+			buildPhases = (
+				6363DA72139C336500746B50 /* Sources */,
+				6363DA73139C336500746B50 /* Frameworks */,
+				6363DA74139C336500746B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISSP;
+			productName = ISSP;
+			productReference = 6363DA76139C336500746B50 /* ISSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6363DA6D139C336400746B50 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6363DA70139C336400746B50 /* Build configuration list for PBXProject "ISSP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6363DA6B139C336400746B50;
+			productRefGroup = 6363DA77139C336500746B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6363DA75139C336500746B50 /* ISSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6363DA74139C336500746B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6363DA85139C336500746B50 /* InfoPlist.strings in Resources */,
+				6363DA8E139C336500746B50 /* MainWindow.xib in Resources */,
+				6363DA94139C336500746B50 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6363DA72139C336500746B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6363DA88139C336500746B50 /* main.m in Sources */,
+				6363DA8B139C336500746B50 /* ISSPAppDelegate.m in Sources */,
+				6363DA91139C336500746B50 /* DetailViewController.m in Sources */,
+				6363DA97139C336500746B50 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6363DA83139C336500746B50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6363DA84139C336500746B50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6363DA8C139C336500746B50 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6363DA8D139C336500746B50 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6363DA92139C336500746B50 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6363DA93139C336500746B50 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6363DA98139C336500746B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6363DA99139C336500746B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6363DA9B139C336500746B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISSP/ISSP-Prefix.pch";
+				INFOPLIST_FILE = "ISSP/ISSP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6363DA9C139C336500746B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISSP/ISSP-Prefix.pch";
+				INFOPLIST_FILE = "ISSP/ISSP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6363DA70139C336400746B50 /* Build configuration list for PBXProject "ISSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6363DA98139C336500746B50 /* Debug */,
+				6363DA99139C336500746B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6363DA9A139C336500746B50 /* Build configuration list for PBXNativeTarget "ISSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6363DA9B139C336500746B50 /* Debug */,
+				6363DA9C139C336500746B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6363DA6D139C336400746B50 /* Project object */;
+}
